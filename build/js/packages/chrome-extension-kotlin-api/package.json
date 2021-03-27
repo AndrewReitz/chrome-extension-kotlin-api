@@ -1,0 +1,16 @@
+{
+  "name": "chrome-extension-kotlin-api",
+  "version": "0.1.0",
+  "main": "kotlin/chrome-extension-kotlin-api.js",
+  "devDependencies": {
+    "dukat": "0.5.8-rc.3"
+  },
+  "dependencies": {
+    "kotlin": "file:C:\\Users\\AReit\\Projects\\chrome-extension-kotlin-api\\build\\js\\packages_imported\\kotlin\\1.4.31",
+    "kotlin-test-js-runner": "file:C:\\Users\\AReit\\Projects\\chrome-extension-kotlin-api\\build\\js\\packages_imported\\kotlin-test-js-runner\\1.4.31",
+    "kotlin-test": "file:C:\\Users\\AReit\\Projects\\chrome-extension-kotlin-api\\build\\js\\packages_imported\\kotlin-test\\1.4.31"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

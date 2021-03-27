@@ -7,6 +7,7 @@ repositories {
 
 plugins {
     kotlin("js") version "1.4.31"
+    `maven-publish`
 }
 
 kotlin {
