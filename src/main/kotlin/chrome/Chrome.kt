@@ -1,6 +1,7 @@
 package chrome
 
 import chrome.action.Action
+import chrome.omnibox.Omnibox
 import chrome.runtime.Runtime
 import chrome.storage.Storage
 import chrome.tabs.Tabs
@@ -20,4 +21,6 @@ external object Chrome {
     val storage: Storage
     val action: Action
     val tabs: Tabs
+    val omnibox: Omnibox
 }
+
