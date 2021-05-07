@@ -15,8 +15,7 @@ import kotlin.js.Promise
  */
 external fun fetch(input: dynamic, init: RequestInit = definedExternally): Promise<Response>
 
-@JsName("chrome")
-external object Chrome {
+external interface ChromePlatform {
     val runtime: Runtime
     val storage: Storage
     val action: Action
@@ -24,3 +23,11 @@ external object Chrome {
     val omnibox: Omnibox
 }
 
+@JsName("chrome")
+external object Chrome : ChromePlatform {
+    override val runtime: Runtime
+    override val storage: Storage
+    override val action: Action
+    override val tabs: Tabs
+    override val omnibox: Omnibox
+}
