@@ -1,7 +1,7 @@
 package chrome.omnibox
 
 /** https://developer.chrome.com/extensions/omnibox */
-external class Omnibox {
+external interface Omnibox {
     /** https://developer.chrome.com/extensions/omnibox#method-setDefaultSuggestion */
     fun setDefaultSuggestion(suggestion: DefaultSuggestResult)
 

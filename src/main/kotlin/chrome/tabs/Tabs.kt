@@ -4,7 +4,7 @@ import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
 /** https://developer.chrome.com/docs/extensions/reference/tabs */
-external class Tabs {
+external interface Tabs {
     val onUpdated: OnUpdated
     @JsName("create")
     fun createAsync(createProperties: CreateProperties, callback: (tab: Tab) -> Unit)

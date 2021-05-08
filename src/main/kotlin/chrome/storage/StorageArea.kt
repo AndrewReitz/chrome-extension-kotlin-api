@@ -5,7 +5,7 @@ import kotlin.coroutines.suspendCoroutine
 import kotlin.js.Json
 import kotlin.js.json
 
-external class StorageArea {
+external interface StorageArea {
     @JsName("get")
     fun getAsync(vararg key: String, callback: (Json) -> Unit)
 
