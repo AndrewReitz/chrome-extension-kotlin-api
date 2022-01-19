@@ -1,6 +1,7 @@
 package chrome
 
 import chrome.action.Action
+import chrome.download.Downloads
 import chrome.omnibox.Omnibox
 import chrome.runtime.Runtime
 import chrome.storage.Storage
@@ -21,6 +22,7 @@ external interface ChromePlatform {
     val action: Action
     val tabs: Tabs
     val omnibox: Omnibox
+    val downloads: Downloads
 }
 
 @JsName("chrome")
