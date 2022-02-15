@@ -32,4 +32,5 @@ external object Chrome : ChromePlatform {
     override val action: Action
     override val tabs: Tabs
     override val omnibox: Omnibox
+    override val downloads: Downloads
 }
